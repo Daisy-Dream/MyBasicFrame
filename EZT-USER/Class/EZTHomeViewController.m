@@ -26,6 +26,8 @@
     } controlEvent:UIControlEventTouchUpInside];
     
     [self.view addSubview:button];
+
+    
 }
 
 - (void)didReceiveMemoryWarning {

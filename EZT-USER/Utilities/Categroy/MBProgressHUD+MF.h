@@ -10,13 +10,12 @@
 
 @interface MBProgressHUD (MF)
 /**
- *  自定义图片的提示，1s后自动消息
+ *  自动消失错误提示,带默认图
  *
- *  @param text 要显示的文字
- *  @param icon 图片地址(建议不要太大的图片)
- *  @param view 要添加的view
+ *  @param error 要显示的错误文字
+ *  @param view  要添加的View
  */
-+ (void)showCustomIcon:(NSString *)iconName Title:(NSString *)title ToView:(UIView *)view;
++ (void)showError:(NSString *)error ToView:(UIView *)view;
 
 
 /**
@@ -29,16 +28,7 @@
 
 
 /**
- *  自动消失错误提示,带默认图
- *
- *  @param error 要显示的错误文字
- *  @param view  要添加的View
- */
-+ (void)showError:(NSString *)error ToView:(UIView *)view;
-
-
-/**
- *  文字+菊花提示,不自动消失
+ *  不自动消失，文字+菊花提示
  *
  *  @param message 要显示的文字
  *  @param view    要添加的View
@@ -49,9 +39,27 @@
 
 
 /**
- *  快速显示一条提示信息
+ *  自定义停留时间，无图
  *
- *  @param showAutoMessage 要显示的文字
+ *  @param message 要显示的文字
+ *  @param view 要添加的View
+ *  @param time 停留时间
+ */
++(void)showMessage:(NSString *)message ToView:(UIView *)view RemainTime:(CGFloat)time;
+
+
+/**
+ *  不自动消失，加载视图
+ *
+ *  @param view 要添加的View
+ */
++ (void)showLoadToView:(UIView *)view;
+
+
+/**
+ *  自动消失提示，快速显示一条提示信息
+ *
+ *  @param message 要显示的文字
  */
 + (void)showAutoMessage:(NSString *)message;
 
@@ -65,6 +73,17 @@
 + (void)showAutoMessage:(NSString *)message ToView:(UIView *)view;
 
 
+
+/**
+ *  自定义图片的提示，1s后自动消息
+ *
+ *  @param title 要显示的文字
+ *  @param iconName 图片地址(建议不要太大的图片)
+ *  @param view 要添加的view
+ */
++ (void)showCustomIcon:(NSString *)iconName Title:(NSString *)title ToView:(UIView *)view;
+
+
 /**
  *  自定义停留时间，有图
  *
@@ -73,24 +92,6 @@
  *  @param time    停留时间
  */
 +(void)showIconMessage:(NSString *)message ToView:(UIView *)view RemainTime:(CGFloat)time;
-
-
-/**
- *  自定义停留时间，无图
- *
- *  @param text 要显示的文字
- *  @param view 要添加的View
- *  @param time 停留时间
- */
-+(void)showMessage:(NSString *)message ToView:(UIView *)view RemainTime:(CGFloat)time;
-
-
-/**
- *  加载视图
- *
- *  @param view 要添加的View
- */
-+ (void)showLoadToView:(UIView *)view;
 
 
 /**

@@ -73,7 +73,7 @@
 		EB7144441E25C8EA008779E7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		EB7144451E25C8EA008779E7 /* MBProgressHUD+MF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MF.h"; sourceTree = "<group>"; };
 		EB7144461E25C8EA008779E7 /* MBProgressHUD+MF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MF.m"; sourceTree = "<group>"; };
-		EB7144471E25C8EA008779E7 /* MFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCategory.h; sourceTree = "<group>"; };
+		EB7144471E25C8EA008779E7 /* EZTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTCategory.h; sourceTree = "<group>"; };
 		EB7144481E25C8EA008779E7 /* NSArray+safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+safe.h"; sourceTree = "<group>"; };
 		EB7144491E25C8EA008779E7 /* NSArray+safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safe.m"; sourceTree = "<group>"; };
 		EB71444A1E25C8EA008779E7 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
@@ -230,10 +230,10 @@
 		EB7144431E25C8EA008779E7 /* Categroy */ = {
 			isa = PBXGroup;
 			children = (
+				EB7144471E25C8EA008779E7 /* EZTCategory.h */,
 				EB7144441E25C8EA008779E7 /* Header.h */,
 				EB7144451E25C8EA008779E7 /* MBProgressHUD+MF.h */,
 				EB7144461E25C8EA008779E7 /* MBProgressHUD+MF.m */,
-				EB7144471E25C8EA008779E7 /* MFCategory.h */,
 				EB7144481E25C8EA008779E7 /* NSArray+safe.h */,
 				EB7144491E25C8EA008779E7 /* NSArray+safe.m */,
 				EB71444A1E25C8EA008779E7 /* NSDate+Category.h */,

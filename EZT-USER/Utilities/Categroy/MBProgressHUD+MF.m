@@ -9,11 +9,12 @@
 #import "MBProgressHUD+MF.h"
 
 @implementation MBProgressHUD (MF)
-#pragma mark 显示错误信息
+#pragma mark 显示错误提示信息
 + (void)showError:(NSString *)error ToView:(UIView *)view{
     [self showCustomIcon:@"icon-error.png" Title:error ToView:view];
 }
 
+#pragma mark 显示成功提示信息
 + (void)showSuccess:(NSString *)success ToView:(UIView *)view
 {
     [self showCustomIcon:@"icon-success.png" Title:success ToView:view];
@@ -32,9 +33,21 @@
     return hud;
 }
 
-//加载视图
+
+#pragma mark 加载视图
 +(void)showLoadToView:(UIView *)view{
     [self showMessage:@"加载中..." ToView:view];
+}
+
+//快速显示一条提示信息
++ (void)showAutoMessage:(NSString *)message{
+    
+    [self showAutoMessage:message ToView:nil];
+}
+
+//自动消失提示，无图
++ (void)showAutoMessage:(NSString *)message ToView:(UIView *)view{
+    [self showMessage:message ToView:view RemainTime:0.9 Model:MBProgressHUDModeText];
 }
 
 
@@ -50,17 +63,9 @@
 }
 
 
-//快速显示一条提示信息
-+ (void)showAutoMessage:(NSString *)message{
-    
-    [self showAutoMessage:message ToView:nil];
-}
 
 
-//自动消失提示，无图
-+ (void)showAutoMessage:(NSString *)message ToView:(UIView *)view{
-    [self showMessage:message ToView:view RemainTime:0.9 Model:MBProgressHUDModeText];
-}
+
 
 //自定义停留时间，有图
 +(void)showIconMessage:(NSString *)message ToView:(UIView *)view RemainTime:(CGFloat)time{
@@ -90,6 +95,8 @@
     [hud hide:YES afterDelay:time];
 }
 
+
+
 + (void)showCustomIcon:(NSString *)iconName Title:(NSString *)title ToView:(UIView *)view
 {
     if (view == nil) view = (UIView*)[UIApplication sharedApplication].delegate.window;
@@ -107,7 +114,7 @@
     hud.removeFromSuperViewOnHide = YES;
     
     // 1秒之后再消失
-    [hud hide:YES afterDelay:0.9];
+    [hud hide:YES afterDelay:3];
 }
 
 + (void)hideHUDForView:(UIView *)view

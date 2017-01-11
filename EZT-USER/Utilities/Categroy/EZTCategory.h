@@ -1,13 +1,13 @@
 //
-//  MFCategory.h
+//  EZTCategory.h
 //  EZT-USER
 //
 //  Created by wangmei on 17/1/10.
 //  Copyright © 2017年 wangmei. All rights reserved.
 //
 
-#ifndef MFCategory_h
-#define MFCategory_h
+#ifndef EZTCategory_h
+#define EZTCategory_h
 
 #import "UIView+frame.h"
 #import "NSArray+safe.h"
@@ -24,4 +24,5 @@
 #import "UISwitch+Blcok.h"
 #import "NSTimer+Blcok.h"
 #import "MBProgressHUD+MF.h"
-#endif /* MFCategory_h */
+#endif /* EZTCategory_h */
+

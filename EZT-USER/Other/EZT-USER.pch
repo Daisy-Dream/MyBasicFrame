@@ -11,7 +11,7 @@
 
 #import "EZTConst.h"
 #import "EZTMacros.h"
-#import "MFCategory.h"
+#import "EZTCategory.h"
 #import "EZTEnum.h"
 #import "Masonry.h"
 #endif /* EZT_USER_pch */
