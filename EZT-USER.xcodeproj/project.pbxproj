@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4E9C745D57172D068095B42 /* Pods_EZT_USER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F77E95D2E656EA4A9D3C91 /* Pods_EZT_USER.framework */; };
+		EB7144301E25C47B008779E7 /* EZTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71442F1E25C47B008779E7 /* EZTTabBarController.m */; };
+		EB7144331E25C4CF008779E7 /* EZTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144321E25C4CF008779E7 /* EZTNavigationController.m */; };
+		EB7144361E25C503008779E7 /* EZTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144351E25C503008779E7 /* EZTBaseViewController.m */; };
+		EB71447F1E25C8EA008779E7 /* MBProgressHUD+MF.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144461E25C8EA008779E7 /* MBProgressHUD+MF.m */; };
+		EB7144801E25C8EA008779E7 /* NSArray+safe.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144491E25C8EA008779E7 /* NSArray+safe.m */; };
+		EB7144811E25C8EA008779E7 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71444B1E25C8EA008779E7 /* NSDate+Category.m */; };
+		EB7144821E25C8EA008779E7 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71444D1E25C8EA008779E7 /* NSDateFormatter+Category.m */; };
+		EB7144831E25C8EA008779E7 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71444F1E25C8EA008779E7 /* NSString+Category.m */; };
+		EB7144841E25C8EA008779E7 /* NSTimer+Blcok.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144511E25C8EA008779E7 /* NSTimer+Blcok.m */; };
+		EB7144851E25C8EA008779E7 /* UIActionSheet+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144531E25C8EA008779E7 /* UIActionSheet+Block.m */; };
+		EB7144861E25C8EA008779E7 /* UIAlertView+Blcok.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144551E25C8EA008779E7 /* UIAlertView+Blcok.m */; };
+		EB7144871E25C8EA008779E7 /* UIBarButtonItem+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144571E25C8EA008779E7 /* UIBarButtonItem+Category.m */; };
+		EB7144881E25C8EA008779E7 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144591E25C8EA008779E7 /* UIButton+Block.m */; };
+		EB7144891E25C8EA008779E7 /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71445B1E25C8EA008779E7 /* UIGestureRecognizer+Block.m */; };
+		EB71448A1E25C8EA008779E7 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71445D1E25C8EA008779E7 /* UIImage+Category.m */; };
+		EB71448B1E25C8EA008779E7 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71445F1E25C8EA008779E7 /* UIImageView+LBBlurredImage.m */; };
+		EB71448C1E25C8EA008779E7 /* UINavigationController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144611E25C8EA008779E7 /* UINavigationController+Category.m */; };
+		EB71448D1E25C8EA008779E7 /* UISwitch+Blcok.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144631E25C8EA008779E7 /* UISwitch+Blcok.m */; };
+		EB71448E1E25C8EA008779E7 /* UITapGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144651E25C8EA008779E7 /* UITapGestureRecognizer+Block.m */; };
+		EB71448F1E25C8EA008779E7 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144671E25C8EA008779E7 /* UIView+frame.m */; };
+		EB7144901E25C8EA008779E7 /* EZTFAPPVersionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71446A1E25C8EA008779E7 /* EZTFAPPVersionTool.m */; };
+		EB7144911E25C8EA008779E7 /* EZTLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71446C1E25C8EA008779E7 /* EZTLineView.m */; };
+		EB7144921E25C8EA008779E7 /* EZTMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71446E1E25C8EA008779E7 /* EZTMapManager.m */; };
+		EB7144931E25C8EA008779E7 /* EZTTopAdvanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144701E25C8EA008779E7 /* EZTTopAdvanceView.m */; };
+		EB7144941E25C8EA008779E7 /* EZTUIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144721E25C8EA008779E7 /* EZTUIUtils.m */; };
+		EB7144951E25C8EA008779E7 /* EZTUnDeallocModels.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144741E25C8EA008779E7 /* EZTUnDeallocModels.m */; };
+		EB7144961E25C8EA008779E7 /* EZTConst.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144771E25C8EA008779E7 /* EZTConst.m */; };
+		EB7144971E25C8EA008779E7 /* PPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71447C1E25C8EA008779E7 /* PPNetworkCache.m */; };
+		EB7144981E25C8EA008779E7 /* PPNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71447E1E25C8EA008779E7 /* PPNetworkHelper.m */; };
+		EB71449D1E25CDBC008779E7 /* EZTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB71449B1E25CDBC008779E7 /* EZTHomeViewController.m */; };
+		EB71449E1E25CDBC008779E7 /* EZTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB71449C1E25CDBC008779E7 /* EZTHomeViewController.xib */; };
+		EB7144A21E25CDD5008779E7 /* EZTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7144A01E25CDD5008779E7 /* EZTMineViewController.m */; };
+		EB7144A31E25CDD5008779E7 /* EZTMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB7144A11E25CDD5008779E7 /* EZTMineViewController.xib */; };
 		EB9ABB2F1E24F1B600F4DF3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9ABB2E1E24F1B600F4DF3E /* main.m */; };
 		EB9ABB321E24F1B600F4DF3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9ABB311E24F1B600F4DF3E /* AppDelegate.m */; };
 		EB9ABB351E24F1B600F4DF3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9ABB341E24F1B600F4DF3E /* ViewController.m */; };
@@ -27,12 +61,84 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1F77E95D2E656EA4A9D3C91 /* Pods_EZT_USER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZT_USER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E1FEA4C63A895E5B69A68B /* Pods-EZT-USER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZT-USER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZT-USER/Pods-EZT-USER.debug.xcconfig"; sourceTree = "<group>"; };
+		BADCBC1C99617CD81D680F9F /* Pods-EZT-USER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZT-USER.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZT-USER/Pods-EZT-USER.release.xcconfig"; sourceTree = "<group>"; };
+		EB71442E1E25C47B008779E7 /* EZTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTTabBarController.h; sourceTree = "<group>"; };
+		EB71442F1E25C47B008779E7 /* EZTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTTabBarController.m; sourceTree = "<group>"; };
+		EB7144311E25C4CF008779E7 /* EZTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTNavigationController.h; sourceTree = "<group>"; };
+		EB7144321E25C4CF008779E7 /* EZTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTNavigationController.m; sourceTree = "<group>"; };
+		EB7144341E25C503008779E7 /* EZTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTBaseViewController.h; sourceTree = "<group>"; };
+		EB7144351E25C503008779E7 /* EZTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTBaseViewController.m; sourceTree = "<group>"; };
+		EB7144441E25C8EA008779E7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		EB7144451E25C8EA008779E7 /* MBProgressHUD+MF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MF.h"; sourceTree = "<group>"; };
+		EB7144461E25C8EA008779E7 /* MBProgressHUD+MF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MF.m"; sourceTree = "<group>"; };
+		EB7144471E25C8EA008779E7 /* MFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFCategory.h; sourceTree = "<group>"; };
+		EB7144481E25C8EA008779E7 /* NSArray+safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+safe.h"; sourceTree = "<group>"; };
+		EB7144491E25C8EA008779E7 /* NSArray+safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safe.m"; sourceTree = "<group>"; };
+		EB71444A1E25C8EA008779E7 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		EB71444B1E25C8EA008779E7 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		EB71444C1E25C8EA008779E7 /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		EB71444D1E25C8EA008779E7 /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		EB71444E1E25C8EA008779E7 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		EB71444F1E25C8EA008779E7 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		EB7144501E25C8EA008779E7 /* NSTimer+Blcok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blcok.h"; sourceTree = "<group>"; };
+		EB7144511E25C8EA008779E7 /* NSTimer+Blcok.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blcok.m"; sourceTree = "<group>"; };
+		EB7144521E25C8EA008779E7 /* UIActionSheet+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Block.h"; sourceTree = "<group>"; };
+		EB7144531E25C8EA008779E7 /* UIActionSheet+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Block.m"; sourceTree = "<group>"; };
+		EB7144541E25C8EA008779E7 /* UIAlertView+Blcok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blcok.h"; sourceTree = "<group>"; };
+		EB7144551E25C8EA008779E7 /* UIAlertView+Blcok.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blcok.m"; sourceTree = "<group>"; };
+		EB7144561E25C8EA008779E7 /* UIBarButtonItem+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Category.h"; sourceTree = "<group>"; };
+		EB7144571E25C8EA008779E7 /* UIBarButtonItem+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Category.m"; sourceTree = "<group>"; };
+		EB7144581E25C8EA008779E7 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		EB7144591E25C8EA008779E7 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		EB71445A1E25C8EA008779E7 /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
+		EB71445B1E25C8EA008779E7 /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
+		EB71445C1E25C8EA008779E7 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		EB71445D1E25C8EA008779E7 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		EB71445E1E25C8EA008779E7 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		EB71445F1E25C8EA008779E7 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		EB7144601E25C8EA008779E7 /* UINavigationController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Category.h"; sourceTree = "<group>"; };
+		EB7144611E25C8EA008779E7 /* UINavigationController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Category.m"; sourceTree = "<group>"; };
+		EB7144621E25C8EA008779E7 /* UISwitch+Blcok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+Blcok.h"; sourceTree = "<group>"; };
+		EB7144631E25C8EA008779E7 /* UISwitch+Blcok.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+Blcok.m"; sourceTree = "<group>"; };
+		EB7144641E25C8EA008779E7 /* UITapGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+Block.h"; sourceTree = "<group>"; };
+		EB7144651E25C8EA008779E7 /* UITapGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+Block.m"; sourceTree = "<group>"; };
+		EB7144661E25C8EA008779E7 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		EB7144671E25C8EA008779E7 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		EB7144691E25C8EA008779E7 /* EZTAPPVersionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTAPPVersionTool.h; sourceTree = "<group>"; };
+		EB71446A1E25C8EA008779E7 /* EZTFAPPVersionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTFAPPVersionTool.m; sourceTree = "<group>"; };
+		EB71446B1E25C8EA008779E7 /* EZTLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTLineView.h; sourceTree = "<group>"; };
+		EB71446C1E25C8EA008779E7 /* EZTLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTLineView.m; sourceTree = "<group>"; };
+		EB71446D1E25C8EA008779E7 /* EZTMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTMapManager.h; sourceTree = "<group>"; };
+		EB71446E1E25C8EA008779E7 /* EZTMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTMapManager.m; sourceTree = "<group>"; };
+		EB71446F1E25C8EA008779E7 /* EZTTopAdvanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTTopAdvanceView.h; sourceTree = "<group>"; };
+		EB7144701E25C8EA008779E7 /* EZTTopAdvanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTTopAdvanceView.m; sourceTree = "<group>"; };
+		EB7144711E25C8EA008779E7 /* EZTUIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTUIUtils.h; sourceTree = "<group>"; };
+		EB7144721E25C8EA008779E7 /* EZTUIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTUIUtils.m; sourceTree = "<group>"; };
+		EB7144731E25C8EA008779E7 /* EZTUnDeallocModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTUnDeallocModels.h; sourceTree = "<group>"; };
+		EB7144741E25C8EA008779E7 /* EZTUnDeallocModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTUnDeallocModels.m; sourceTree = "<group>"; };
+		EB7144761E25C8EA008779E7 /* EZTConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTConst.h; sourceTree = "<group>"; };
+		EB7144771E25C8EA008779E7 /* EZTConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTConst.m; sourceTree = "<group>"; };
+		EB7144781E25C8EA008779E7 /* EZTEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTEnum.h; sourceTree = "<group>"; };
+		EB7144791E25C8EA008779E7 /* EZTMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTMacros.h; sourceTree = "<group>"; };
+		EB71447B1E25C8EA008779E7 /* PPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkCache.h; sourceTree = "<group>"; };
+		EB71447C1E25C8EA008779E7 /* PPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkCache.m; sourceTree = "<group>"; };
+		EB71447D1E25C8EA008779E7 /* PPNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkHelper.h; sourceTree = "<group>"; };
+		EB71447E1E25C8EA008779E7 /* PPNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkHelper.m; sourceTree = "<group>"; };
+		EB71449A1E25CDBC008779E7 /* EZTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTHomeViewController.h; sourceTree = "<group>"; };
+		EB71449B1E25CDBC008779E7 /* EZTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTHomeViewController.m; sourceTree = "<group>"; };
+		EB71449C1E25CDBC008779E7 /* EZTHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZTHomeViewController.xib; sourceTree = "<group>"; };
+		EB71449F1E25CDD5008779E7 /* EZTMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTMineViewController.h; sourceTree = "<group>"; };
+		EB7144A01E25CDD5008779E7 /* EZTMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTMineViewController.m; sourceTree = "<group>"; };
+		EB7144A11E25CDD5008779E7 /* EZTMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZTMineViewController.xib; sourceTree = "<group>"; };
+		EB7144A41E25D159008779E7 /* EZT-USER.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZT-USER.pch"; sourceTree = "<group>"; };
 		EB9ABB2A1E24F1B600F4DF3E /* EZT-USER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZT-USER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9ABB2E1E24F1B600F4DF3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB9ABB301E24F1B600F4DF3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EB9ABB311E24F1B600F4DF3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB9ABB331E24F1B600F4DF3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB9ABB341E24F1B600F4DF3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB9ABB301E24F1B600F4DF3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		EB9ABB311E24F1B600F4DF3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		EB9ABB331E24F1B600F4DF3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		EB9ABB341E24F1B600F4DF3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		EB9ABB371E24F1B600F4DF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB9ABB391E24F1B600F4DF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB9ABB3C1E24F1B600F4DF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E9C745D57172D068095B42 /* Pods_EZT_USER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +167,158 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA1A84E985222D268A0B226 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1FEA4C63A895E5B69A68B /* Pods-EZT-USER.debug.xcconfig */,
+				BADCBC1C99617CD81D680F9F /* Pods-EZT-USER.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		436E292BEC5E2A9064615147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F77E95D2E656EA4A9D3C91 /* Pods_EZT_USER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB71442D1E25C425008779E7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EB7144A41E25D159008779E7 /* EZT-USER.pch */,
+				EB9ABB301E24F1B600F4DF3E /* AppDelegate.h */,
+				EB9ABB311E24F1B600F4DF3E /* AppDelegate.m */,
+				EB9ABB331E24F1B600F4DF3E /* ViewController.h */,
+				EB9ABB341E24F1B600F4DF3E /* ViewController.m */,
+				EB9ABB361E24F1B600F4DF3E /* Main.storyboard */,
+				EB71442E1E25C47B008779E7 /* EZTTabBarController.h */,
+				EB71442F1E25C47B008779E7 /* EZTTabBarController.m */,
+				EB7144311E25C4CF008779E7 /* EZTNavigationController.h */,
+				EB7144321E25C4CF008779E7 /* EZTNavigationController.m */,
+				EB7144341E25C503008779E7 /* EZTBaseViewController.h */,
+				EB7144351E25C503008779E7 /* EZTBaseViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EB7144371E25C61B008779E7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EB71449A1E25CDBC008779E7 /* EZTHomeViewController.h */,
+				EB71449B1E25CDBC008779E7 /* EZTHomeViewController.m */,
+				EB71449C1E25CDBC008779E7 /* EZTHomeViewController.xib */,
+				EB71449F1E25CDD5008779E7 /* EZTMineViewController.h */,
+				EB7144A01E25CDD5008779E7 /* EZTMineViewController.m */,
+				EB7144A11E25CDD5008779E7 /* EZTMineViewController.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		EB7144421E25C8EA008779E7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EB7144431E25C8EA008779E7 /* Categroy */,
+				EB7144681E25C8EA008779E7 /* Components */,
+				EB7144751E25C8EA008779E7 /* Macros */,
+				EB71447A1E25C8EA008779E7 /* NetWork */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EB7144431E25C8EA008779E7 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				EB7144441E25C8EA008779E7 /* Header.h */,
+				EB7144451E25C8EA008779E7 /* MBProgressHUD+MF.h */,
+				EB7144461E25C8EA008779E7 /* MBProgressHUD+MF.m */,
+				EB7144471E25C8EA008779E7 /* MFCategory.h */,
+				EB7144481E25C8EA008779E7 /* NSArray+safe.h */,
+				EB7144491E25C8EA008779E7 /* NSArray+safe.m */,
+				EB71444A1E25C8EA008779E7 /* NSDate+Category.h */,
+				EB71444B1E25C8EA008779E7 /* NSDate+Category.m */,
+				EB71444C1E25C8EA008779E7 /* NSDateFormatter+Category.h */,
+				EB71444D1E25C8EA008779E7 /* NSDateFormatter+Category.m */,
+				EB71444E1E25C8EA008779E7 /* NSString+Category.h */,
+				EB71444F1E25C8EA008779E7 /* NSString+Category.m */,
+				EB7144501E25C8EA008779E7 /* NSTimer+Blcok.h */,
+				EB7144511E25C8EA008779E7 /* NSTimer+Blcok.m */,
+				EB7144521E25C8EA008779E7 /* UIActionSheet+Block.h */,
+				EB7144531E25C8EA008779E7 /* UIActionSheet+Block.m */,
+				EB7144541E25C8EA008779E7 /* UIAlertView+Blcok.h */,
+				EB7144551E25C8EA008779E7 /* UIAlertView+Blcok.m */,
+				EB7144561E25C8EA008779E7 /* UIBarButtonItem+Category.h */,
+				EB7144571E25C8EA008779E7 /* UIBarButtonItem+Category.m */,
+				EB7144581E25C8EA008779E7 /* UIButton+Block.h */,
+				EB7144591E25C8EA008779E7 /* UIButton+Block.m */,
+				EB71445A1E25C8EA008779E7 /* UIGestureRecognizer+Block.h */,
+				EB71445B1E25C8EA008779E7 /* UIGestureRecognizer+Block.m */,
+				EB71445C1E25C8EA008779E7 /* UIImage+Category.h */,
+				EB71445D1E25C8EA008779E7 /* UIImage+Category.m */,
+				EB71445E1E25C8EA008779E7 /* UIImageView+LBBlurredImage.h */,
+				EB71445F1E25C8EA008779E7 /* UIImageView+LBBlurredImage.m */,
+				EB7144601E25C8EA008779E7 /* UINavigationController+Category.h */,
+				EB7144611E25C8EA008779E7 /* UINavigationController+Category.m */,
+				EB7144621E25C8EA008779E7 /* UISwitch+Blcok.h */,
+				EB7144631E25C8EA008779E7 /* UISwitch+Blcok.m */,
+				EB7144641E25C8EA008779E7 /* UITapGestureRecognizer+Block.h */,
+				EB7144651E25C8EA008779E7 /* UITapGestureRecognizer+Block.m */,
+				EB7144661E25C8EA008779E7 /* UIView+frame.h */,
+				EB7144671E25C8EA008779E7 /* UIView+frame.m */,
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		EB7144681E25C8EA008779E7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB7144691E25C8EA008779E7 /* EZTAPPVersionTool.h */,
+				EB71446A1E25C8EA008779E7 /* EZTFAPPVersionTool.m */,
+				EB71446B1E25C8EA008779E7 /* EZTLineView.h */,
+				EB71446C1E25C8EA008779E7 /* EZTLineView.m */,
+				EB71446D1E25C8EA008779E7 /* EZTMapManager.h */,
+				EB71446E1E25C8EA008779E7 /* EZTMapManager.m */,
+				EB71446F1E25C8EA008779E7 /* EZTTopAdvanceView.h */,
+				EB7144701E25C8EA008779E7 /* EZTTopAdvanceView.m */,
+				EB7144711E25C8EA008779E7 /* EZTUIUtils.h */,
+				EB7144721E25C8EA008779E7 /* EZTUIUtils.m */,
+				EB7144731E25C8EA008779E7 /* EZTUnDeallocModels.h */,
+				EB7144741E25C8EA008779E7 /* EZTUnDeallocModels.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EB7144751E25C8EA008779E7 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				EB7144761E25C8EA008779E7 /* EZTConst.h */,
+				EB7144771E25C8EA008779E7 /* EZTConst.m */,
+				EB7144781E25C8EA008779E7 /* EZTEnum.h */,
+				EB7144791E25C8EA008779E7 /* EZTMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		EB71447A1E25C8EA008779E7 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				EB71447B1E25C8EA008779E7 /* PPNetworkCache.h */,
+				EB71447C1E25C8EA008779E7 /* PPNetworkCache.m */,
+				EB71447D1E25C8EA008779E7 /* PPNetworkHelper.h */,
+				EB71447E1E25C8EA008779E7 /* PPNetworkHelper.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		EB9ABB211E24F1B600F4DF3E = {
 			isa = PBXGroup;
 			children = (
 				EB9ABB2C1E24F1B600F4DF3E /* EZT-USER */,
 				EB9ABB461E24F1B600F4DF3E /* EZT-USERUITests */,
 				EB9ABB2B1E24F1B600F4DF3E /* Products */,
+				0CA1A84E985222D268A0B226 /* Pods */,
+				436E292BEC5E2A9064615147 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +334,9 @@
 		EB9ABB2C1E24F1B600F4DF3E /* EZT-USER */ = {
 			isa = PBXGroup;
 			children = (
-				EB9ABB301E24F1B600F4DF3E /* AppDelegate.h */,
-				EB9ABB311E24F1B600F4DF3E /* AppDelegate.m */,
-				EB9ABB331E24F1B600F4DF3E /* ViewController.h */,
-				EB9ABB341E24F1B600F4DF3E /* ViewController.m */,
-				EB9ABB361E24F1B600F4DF3E /* Main.storyboard */,
-				EB9ABB391E24F1B600F4DF3E /* Assets.xcassets */,
-				EB9ABB3B1E24F1B600F4DF3E /* LaunchScreen.storyboard */,
-				EB9ABB3E1E24F1B600F4DF3E /* Info.plist */,
+				EB7144421E25C8EA008779E7 /* Utilities */,
+				EB7144371E25C61B008779E7 /* Class */,
+				EB71442D1E25C425008779E7 /* Other */,
 				EB9ABB2D1E24F1B600F4DF3E /* Supporting Files */,
 			);
 			path = "EZT-USER";
@@ -97,6 +345,9 @@
 		EB9ABB2D1E24F1B600F4DF3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB9ABB3B1E24F1B600F4DF3E /* LaunchScreen.storyboard */,
+				EB9ABB3E1E24F1B600F4DF3E /* Info.plist */,
+				EB9ABB391E24F1B600F4DF3E /* Assets.xcassets */,
 				EB9ABB2E1E24F1B600F4DF3E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -118,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB9ABB4C1E24F1B600F4DF3E /* Build configuration list for PBXNativeTarget "EZT-USER" */;
 			buildPhases = (
+				AB77B14562930F03FF490823 /* [CP] Check Pods Manifest.lock */,
 				EB9ABB261E24F1B600F4DF3E /* Sources */,
 				EB9ABB271E24F1B600F4DF3E /* Frameworks */,
 				EB9ABB281E24F1B600F4DF3E /* Resources */,
+				B1DEFFB8FA45159BD7519E34 /* [CP] Embed Pods Frameworks */,
+				0B79912F102FD1B17DBE0584 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +409,7 @@
 		EB9ABB221E24F1B600F4DF3E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EZT;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = wangmei;
 				TargetAttributes = {
@@ -194,6 +449,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB9ABB3D1E24F1B600F4DF3E /* LaunchScreen.storyboard in Resources */,
+				EB7144A31E25CDD5008779E7 /* EZTMineViewController.xib in Resources */,
+				EB71449E1E25CDBC008779E7 /* EZTHomeViewController.xib in Resources */,
 				EB9ABB3A1E24F1B600F4DF3E /* Assets.xcassets in Resources */,
 				EB9ABB381E24F1B600F4DF3E /* Main.storyboard in Resources */,
 			);
@@ -208,14 +465,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B79912F102FD1B17DBE0584 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZT-USER/Pods-EZT-USER-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB77B14562930F03FF490823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DEFFB8FA45159BD7519E34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZT-USER/Pods-EZT-USER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB9ABB261E24F1B600F4DF3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7144841E25C8EA008779E7 /* NSTimer+Blcok.m in Sources */,
+				EB71448E1E25C8EA008779E7 /* UITapGestureRecognizer+Block.m in Sources */,
+				EB7144981E25C8EA008779E7 /* PPNetworkHelper.m in Sources */,
+				EB71448C1E25C8EA008779E7 /* UINavigationController+Category.m in Sources */,
+				EB7144901E25C8EA008779E7 /* EZTFAPPVersionTool.m in Sources */,
 				EB9ABB351E24F1B600F4DF3E /* ViewController.m in Sources */,
+				EB7144821E25C8EA008779E7 /* NSDateFormatter+Category.m in Sources */,
+				EB71449D1E25CDBC008779E7 /* EZTHomeViewController.m in Sources */,
+				EB7144801E25C8EA008779E7 /* NSArray+safe.m in Sources */,
+				EB7144831E25C8EA008779E7 /* NSString+Category.m in Sources */,
+				EB7144911E25C8EA008779E7 /* EZTLineView.m in Sources */,
+				EB7144921E25C8EA008779E7 /* EZTMapManager.m in Sources */,
+				EB71448D1E25C8EA008779E7 /* UISwitch+Blcok.m in Sources */,
+				EB71448F1E25C8EA008779E7 /* UIView+frame.m in Sources */,
+				EB7144861E25C8EA008779E7 /* UIAlertView+Blcok.m in Sources */,
 				EB9ABB321E24F1B600F4DF3E /* AppDelegate.m in Sources */,
+				EB7144331E25C4CF008779E7 /* EZTNavigationController.m in Sources */,
+				EB7144851E25C8EA008779E7 /* UIActionSheet+Block.m in Sources */,
+				EB7144361E25C503008779E7 /* EZTBaseViewController.m in Sources */,
+				EB7144871E25C8EA008779E7 /* UIBarButtonItem+Category.m in Sources */,
+				EB7144941E25C8EA008779E7 /* EZTUIUtils.m in Sources */,
+				EB7144951E25C8EA008779E7 /* EZTUnDeallocModels.m in Sources */,
+				EB7144891E25C8EA008779E7 /* UIGestureRecognizer+Block.m in Sources */,
 				EB9ABB2F1E24F1B600F4DF3E /* main.m in Sources */,
+				EB7144811E25C8EA008779E7 /* NSDate+Category.m in Sources */,
+				EB7144881E25C8EA008779E7 /* UIButton+Block.m in Sources */,
+				EB71447F1E25C8EA008779E7 /* MBProgressHUD+MF.m in Sources */,
+				EB71448B1E25C8EA008779E7 /* UIImageView+LBBlurredImage.m in Sources */,
+				EB7144301E25C47B008779E7 /* EZTTabBarController.m in Sources */,
+				EB7144A21E25CDD5008779E7 /* EZTMineViewController.m in Sources */,
+				EB7144971E25C8EA008779E7 /* PPNetworkCache.m in Sources */,
+				EB7144931E25C8EA008779E7 /* EZTTopAdvanceView.m in Sources */,
+				EB7144961E25C8EA008779E7 /* EZTConst.m in Sources */,
+				EB71448A1E25C8EA008779E7 /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +580,7 @@
 				EB9ABB371E24F1B600F4DF3E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EB9ABB3B1E24F1B600F4DF3E /* LaunchScreen.storyboard */ = {
@@ -287,6 +624,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -332,6 +670,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -347,22 +686,30 @@
 		};
 		EB9ABB4D1E24F1B600F4DF3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E1FEA4C63A895E5B69A68B /* Pods-EZT-USER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangmei/Desktop/EZT-USER/EZT-USER/Other/EZT-USER.pch";
 				INFOPLIST_FILE = "EZT-USER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eztcn.MZDTUser.EZT-USER";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eztcn.MZDTUser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		EB9ABB4E1E24F1B600F4DF3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADCBC1C99617CD81D680F9F /* Pods-EZT-USER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangmei/Desktop/EZT-USER/EZT-USER/Other/EZT-USER.pch";
 				INFOPLIST_FILE = "EZT-USER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eztcn.MZDTUser.EZT-USER";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eztcn.MZDTUser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -408,6 +755,7 @@
 				EB9ABB4E1E24F1B600F4DF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB9ABB4F1E24F1B600F4DF3E /* Build configuration list for PBXNativeTarget "EZT-USERUITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +764,7 @@
 				EB9ABB511E24F1B600F4DF3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
