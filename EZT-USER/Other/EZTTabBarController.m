@@ -19,11 +19,11 @@
 + (void)initialize {
     NSMutableDictionary *normalAttrs              = [NSMutableDictionary dictionary];
     normalAttrs[NSFontAttributeName]              = [UIFont systemFontOfSize:11];
-    normalAttrs[NSForegroundColorAttributeName]   = MFTabBarNormalColor;
+    normalAttrs[NSForegroundColorAttributeName]   = EZTTabBarNormalColor;
     
     NSMutableDictionary *selectedAttrs            = [NSMutableDictionary dictionary];
     selectedAttrs[NSFontAttributeName]            = normalAttrs[NSFontAttributeName];
-    selectedAttrs[NSForegroundColorAttributeName] = MFThemeColor;
+    selectedAttrs[NSForegroundColorAttributeName] = EZTThemeColor;
     
     UITabBarItem *appearance = [UITabBarItem appearance];
     [appearance setTitleTextAttributes:normalAttrs forState:UIControlStateNormal];

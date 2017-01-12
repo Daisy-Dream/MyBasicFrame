@@ -13,4 +13,4 @@ UIKIT_EXTERN CGFloat const kTabBarH;
 
 UIKIT_EXTERN CGFloat const kNavigationBarH;
 
-UIKIT_EXTERN NSString * const MFVersionKey;
+UIKIT_EXTERN NSString * const EZTVersionKey;

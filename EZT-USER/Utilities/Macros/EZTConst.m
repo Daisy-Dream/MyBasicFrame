@@ -13,4 +13,4 @@ CGFloat const kTabBarH = 49.0f;
 
 CGFloat const kNavigationBarH = 64.0f;
 
-NSString * const MFVersionKey = @"MFAPPVersion";
+NSString * const EZTVersionKey = @"EZTAPPVersion";

@@ -12,13 +12,13 @@
 // 获取保存的上一个版本信息
 + (NSString *)savedAppVersion {
     
-    return [[NSUserDefaults standardUserDefaults] stringForKey:MFVersionKey];
+    return [[NSUserDefaults standardUserDefaults] stringForKey:EZTVersionKey];
 }
 
 // 保存新版本信息（偏好设置）
 + (void)saveNewAppVersion:(NSString *)version {
     
-    [[NSUserDefaults standardUserDefaults] setObject:version forKey:MFVersionKey];
+    [[NSUserDefaults standardUserDefaults] setObject:version forKey:EZTVersionKey];
 }
 
 /** appstore 获取版本 */

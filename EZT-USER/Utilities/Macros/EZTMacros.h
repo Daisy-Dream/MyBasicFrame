@@ -53,6 +53,9 @@
 /** 是否为iOS9 */
 #define iOS9 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) ? YES : NO)
 
+///** 是否为iOS10 */
+//#define iOS10 (([[[UIDevice currentDevice] systemVersion] floatValue] >= 10.0) ? YES : NO)
+
 
 //----------------------ABOUT PRINTING LOG 打印日志 ----------------------------
 //Using MFLog to print while in debug model.        调试状态下打印日志
@@ -80,9 +83,9 @@
 /** 分割线 */
 #define LineColor               RGBCOLOR(188, 186, 193)
 /** TabBar颜色 －> 待定 */
-#define MFTabBarNormalColor RGBCOLOR(170, 170, 170)
+#define EZTTabBarNormalColor RGBCOLOR(170, 170, 170)
 /** TabBar选中颜色 －> 待定 */
-#define MFThemeColor RGBCOLOR(249, 103, 80)
+#define EZTThemeColor RGBCOLOR(249, 103, 80)
 
 
 //----------------------SYSTEM FONT 系统字体 ----------------------------

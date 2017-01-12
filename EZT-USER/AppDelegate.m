@@ -68,7 +68,7 @@ void UncaughtExceptionHandler(NSException *exception){
     NSArray *symbols = [exception callStackSymbols];
     NSString *reason = [exception reason];
     NSString *name   = [exception name];
-    NSString *urlStr = [NSString stringWithFormat:@"mailto://wangmei@icloud.com?&body=感谢您的配合!\n"
+    NSString *urlStr = [NSString stringWithFormat:@"mailto://wang_mei913@163.com?&body=感谢您的配合!\n"
                         "错误详情:\n%@\n--------------------------\n%@\n--------------------------\n%@",
                         name,
                         reason,
