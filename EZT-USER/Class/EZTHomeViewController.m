@@ -8,6 +8,7 @@
 
 #import "EZTHomeViewController.h"
 #import "EZTMineViewController.h"
+#import "EZTMapManager.h"
 @interface EZTHomeViewController ()
 
 @end
@@ -26,9 +27,13 @@
     } controlEvent:UIControlEventTouchUpInside];
     
     [self.view addSubview:button];
-
+    
     
 }
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

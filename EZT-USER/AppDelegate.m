@@ -9,7 +9,11 @@
 #import "AppDelegate.h"
 #import "EZTTabBarController.h"
 #import "EZTAPPVersionTool.h"
-@interface AppDelegate ()
+#import "EZTMapManager.h"
+@interface AppDelegate ()<MapManagerLocationDelegate>{
+    EZTMapManager *_manager;
+}
+
 
 @end
 
@@ -20,7 +24,9 @@
     /** 设置窗口 */
     [self setUpWindow];
     /** 检测版本更新 */
-    [[[EZTAPPVersionTool alloc] init] appleAppVersionUpdate];
+    //[[[EZTAPPVersionTool alloc] init] appleAppVersionUpdate];
+    /** 获取定位*/
+    [self getAllowedAndStartForLocation];
 #ifdef DEBUG
     /** 捕捉异常 */
     NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
@@ -38,6 +44,22 @@
     self.window.rootViewController = [[EZTTabBarController alloc] init];
     [self.window makeKeyAndVisible];
 }
+
+#pragma mark  获取定位
+-(void)getAllowedAndStartForLocation{
+    _manager = [[EZTMapManager alloc]init];
+    _manager.delegate = self;
+    [_manager start];
+}
+
+#pragma mark  MapManagerLocationDelegate 获取位置信息
+- (void)mapManager:(EZTMapManager *)manager didUpdateAndGetLastCLLocation:(CLLocation *)location{
+    CLLocationCoordinate2D coordinate=location.coordinate;//位置坐标
+    NSLog(@"经度：%f,纬度：%f,海拔：%f,航向：%f,行走速度：%f",coordinate.longitude,coordinate.latitude,location.altitude,location.course,location.speed);
+}
+
+
+
 
 #pragma mark - 异常捕捉
 /** 设置一个C函数，用来接收崩溃信息，发送至指定邮箱 */
